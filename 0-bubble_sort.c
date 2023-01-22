@@ -1,4 +1,6 @@
 #include "sort.h"
+
+
 void swap_ints(int *a, int *b);
 
 
@@ -7,6 +9,7 @@ void swap_ints(int *a, int *b);
  * @a: The first integer
  * @b: The second integer
  */
+
 
 void swap_ints(int *a, int *b)
 {
@@ -19,11 +22,12 @@ void swap_ints(int *a, int *b)
 
 
 /**
- * bubble_sort - This func sorts an array of integers using the Bubble sort algorithm
+ * bubble_sort - Sorts an array of integers using the Bubble sort algorithm
  * @array: The array of integers to sort
  * @size: Size of the array described above
  * Return: 0
  */
+
 
 void bubble_sort(int *array, size_t size)
 {
