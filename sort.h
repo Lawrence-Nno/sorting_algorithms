@@ -3,6 +3,7 @@
 
 #include <stdio.h>
 #include <stdarg.h>
+#include "deck.h"
 
 /*Bitonic sort's comparison direction macros*/
 #define UP 0
